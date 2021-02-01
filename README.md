@@ -37,4 +37,4 @@ source .zshrc // source .bash_profile
 npm install -g swizzy
 ```
 - [document](https://realm.github.io/SwiftLint/Enums/RuleKind.html)
-- [3th-doc](https://www.jianshu.com/p/eea2520f34ae)
+- [3th-doc](https://www.jianshu.com/p/eea2520f34ae), [TecentDoc](https://cloud.tencent.com/developer/article/1617958)
