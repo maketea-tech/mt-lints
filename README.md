@@ -25,9 +25,14 @@ source .zshrc // source .bash_profile
 ```
 - [download](https://github.com/oclint/oclint/releases/tag/v20.11)
 - [custom lint rule](https://juejin.cn/post/6844903853775650830)
+- [xcpretty]()
 
 
 ### swiftlint
 
 - [download](https://github.com/realm/SwiftLint)
 - [sample](https://github.com/muyexi/SwiftLinter)
+- [pretty: swizzy]()
+```
+npm install -g swizzy
+```
