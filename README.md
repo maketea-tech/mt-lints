@@ -38,3 +38,10 @@ npm install -g swizzy
 ```
 - [document](https://realm.github.io/SwiftLint/Enums/RuleKind.html), [document-in-github](https://github.com/realm/SwiftLint/blob/master/README_CN.md)
 - [3th-doc](https://www.jianshu.com/p/eea2520f34ae), [TecentDoc](https://cloud.tencent.com/developer/article/1617958)
+- Version mapping
+Swift 版本	最后一个 SwiftLint 支持版本
+Swift 1.x	- SwiftLint 0.1.2
+Swift 2.x	- SwiftLint 0.18.1
+Swift 3.x	- SwiftLint 0.25.1
+Swift 4.0-4.1.x -	SwiftLint 0.28.2
+Swift 4.2.x-5.0 -	最新的
