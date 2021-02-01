@@ -4,7 +4,7 @@
 
 ### oclint
 
-- [fomula]()
+- [installs]()
 ```
 // Install by brew
 brew tap oclint/formulae
@@ -17,4 +17,9 @@ cd oclint-scripts
 ./make
 cd build
 ```
-- [tool](https://github.com/oclint/oclint/releases/tag/v20.11)
+- [download](https://github.com/oclint/oclint/releases/tag/v20.11)
+
+
+### swiftlint
+
+- [download](https://github.com/realm/SwiftLint)
