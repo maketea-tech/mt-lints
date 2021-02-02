@@ -26,6 +26,10 @@ source .zshrc // source .bash_profile
 - [download](https://github.com/oclint/oclint/releases/tag/v20.11)
 - [custom lint rule](https://juejin.cn/post/6844903853775650830)
 - [xcpretty]()
+```
+sudo gem install xcpretty
+```
+- [custom-blog](https://github.com/hdw09/CIHexoBlog/blob/master/source/_posts/OClint%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md), [custom-blog-1](https://github.com/hdw09/CIHexoBlog/blob/master/source/_posts/OCLint-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%84%E5%88%99101.md)
 
 
 ### swiftlint
@@ -45,3 +49,12 @@ Swift 2.x	- SwiftLint 0.18.1
 Swift 3.x	- SwiftLint 0.25.1
 Swift 4.0-4.1.x -	SwiftLint 0.28.2
 Swift 4.2.x-5.0 -	最新的
+
+
+### javalint
+
+> 实在是多如牛毛
+
+ - IDEA: Alibaba Java Coding Guidelines (Tools -> 阿里编码规约)
+ - [alibaba/p3c](https://github.com/alibaba/p3c)
+ - 
