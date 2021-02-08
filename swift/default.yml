@@ -1,0 +1,72 @@
+disabled_rules:
+  - identifier_name                         # 驼峰，但与后端冲突，然而后端没有转换插件
+  - trailing_whitespace               
+
+opt_in_rules:
+  - empty_count
+  - no_extension_access_modifier
+  - attributes
+included:
+  - Project
+excluded:
+  - Pods
+  - Project/R.generated.swift
+
+unused_capture_list: error
+redundant_void_return: error
+operator_whitespace: error
+closure_parameter_position: error
+mark: error
+redundant_optional_initialization: error
+return_arrow_whitespace: error
+force_unwrapping: error
+force_cast: warning
+force_try: warning
+no_space_in_method_call: error
+empty_count: error
+opening_brace: error
+statement_position: error
+colon: error
+comma: error
+prohibited_interface_builder: error
+protocol_property_accessors_order: error
+
+type_name:                                  # desc: 类型名应该只包含字母数字字符， 并且以大写字母开头，长度在3-40个字符
+  min_length: 4                             # tip: only warning
+  max_length:                               # tip: warning and error
+    warning: 60
+    error: 80
+  excluded:
+    iPhone
+
+identifier_name:
+  min_length: 1
+  max_length:
+    warning: 40
+    error: 50
+  excluded:
+    - id
+    - URL
+    - GlobalAPIKey
+
+type_body_length:                         
+  - 300                                     # tip: warning
+  - 400                                     # tip: error
+
+file_length:
+  warning: 1000
+  error: 2000
+
+cyclomatic_complexity:
+  warning: 15
+  error: 100                                # desc: 代码复杂度，循环/圈复杂度，主要约束条件句、循环句中的循环嵌套问题
+
+function_body_length:                       # desc: 函数体长度
+  warning: 200
+  error: 400
+
+large_tuple:                                # desc: 元组成员
+  warning: 6
+  error: 10
+
+reporter: "xcode"
